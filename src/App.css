@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10rem auto;
+}
+.dropdown-section {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.list {
+  
+  box-shadow: 0 4px 2px -2px #eaeaea;
+}
+ul {
+  list-style-type: none;
+  text-align: left;
+  background-color:#fff;
+
+  clip-path: polygon(0 100%, 100% 100%, 100% 9%, 23% 9%, 18% 0, 40px 9%, 0 9%);
+}
+.polygon {
+  color: #fff;
+}
+li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.active-item {
+  color: #0080ff;
+}
+button {
+  width: 100%;
+  text-align: left;
+  padding: 1rem 5rem 1rem 40px;
+  background: linear-gradient(0.25turn, #0080ff, #01ffff);
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  box-shadow: 0px 25px 25px 5px #eaeaea;
+}
